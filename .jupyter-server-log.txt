@@ -1,0 +1,49 @@
+[I 06:54:11.634 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 2022-08-06 06:54:12.438 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-08-06 06:54:12.438 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-08-06 06:54:12.438 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-08-06 06:54:12.438 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-08-06 06:54:12.438 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-08-06 06:54:12.438 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-08-06 06:54:12.438 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-08-06 06:54:12.438 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-08-06 06:54:12.439 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-08-06 06:54:12.439 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-08-06 06:54:12.439 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-08-06 06:54:12.439 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-08-06 06:54:12.449 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/jupyterlab
+[I 2022-08-06 06:54:12.450 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 06:54:12.458 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.7/site-packages/nteract_on_jupyter
+[I 06:54:12.460 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 06:54:12.461 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 06:54:12.461 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 06:54:12.461 NotebookApp] http://jupyter-trkece-2dface-2drecognition-2d-2dbx5kwd32:8888/user/trkece-face-recognition--bx5kwd32/?token=...
+[I 06:54:12.461 NotebookApp]  or http://127.0.0.1:8888/user/trkece-face-recognition--bx5kwd32/?token=...
+[I 06:54:12.461 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 06:54:12.467 NotebookApp] No web browser found: could not locate runnable browser.
+[I 06:54:13.439 NotebookApp] 302 GET /user/trkece-face-recognition--bx5kwd32/ (10.0.5.14) 0.960000ms
+[I 06:54:14.261 NotebookApp] 302 GET /user/trkece-face-recognition--bx5kwd32/?token=MPA0A6GiQqutc9wmSwx-jg (122.177.123.28) 0.810000ms
+[I 06:54:14.521 NotebookApp] 301 GET /user/trkece-face-recognition--bx5kwd32/lab/?token=MPA0A6GiQqutc9wmSwx-jg (122.177.123.28) 1.800000ms
+[I 06:54:27.760 NotebookApp] 301 GET /user/trkece-face-recognition--bx5kwd32/static/favicons/favicon.ico (122.177.123.28) 0.720000ms
+[I 2022-08-06 06:54:32.734 LabApp] Build is up to date
+[I 06:54:37.784 NotebookApp] New terminal with automatic name: 1
+[I 06:54:47.965 NotebookApp] Writing notebook-signing key to /home/jovyan/.local/share/jupyter/notebook_secret
+[W 06:54:47.969 NotebookApp] Notebook 01 - Basic Image Processing concepts.ipynb is not trusted
+[W 06:54:52.282 NotebookApp] 404 GET /user/trkece-face-recognition--bx5kwd32/files/hsvcol.jpg?_xsrf=2%7C2e4f622c%7C7ad353527f29ec7bab7786ae0885b593%7C1659766588&1659768891099 (122.177.123.28) 31.980000ms referer=https://hub.gke2.mybinder.org/user/trkece-face-recognition--bx5kwd32/lab/workspaces/auto-V/tree/01%20-%20Basic%20Image%20Processing%20concepts.ipynb
+[I 06:54:53.620 NotebookApp] Kernel started: b93dad74-bd61-4f5e-b29a-67ca7aff2e54, name: python3
+[I 06:54:53.620 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 06:54:53.620 NotebookApp] Culling kernels even with connected clients
+[I 06:54:55.300 NotebookApp] Starting buffering for b93dad74-bd61-4f5e-b29a-67ca7aff2e54:897765d9-2f16-4437-8dbb-5f8cc31498de
+[I 06:54:55.813 NotebookApp] 301 GET /user/trkece-face-recognition--bx5kwd32/static/favicons/favicon-busy-1.ico (122.177.123.28) 0.650000ms
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 5ec2be98-02f1-462e-87ec-85c5f5e7e9de
+[I 06:55:05.356 NotebookApp] Saving file at /01 - Basic Image Processing concepts.ipynb
+[W 06:55:05.357 NotebookApp] Notebook 01 - Basic Image Processing concepts.ipynb is not trusted
+[I 06:57:09.521 NotebookApp] Saving file at /01 - Basic Image Processing concepts.ipynb
+[W 06:57:09.522 NotebookApp] Notebook 01 - Basic Image Processing concepts.ipynb is not trusted
+[W 07:02:05.361 NotebookApp] Notebook 03 - Landmark.ipynb is not trusted
+[I 07:02:06.556 NotebookApp] Kernel started: 3954f6fa-bde6-49e2-bf89-d02a8c45a12e, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 80b2d4b0-e832-4b77-820b-4405b483f28e
+[I 07:02:33.358 NotebookApp] Saving file at /03 - Landmark.ipynb
+[W 07:02:33.359 NotebookApp] Notebook 03 - Landmark.ipynb is not trusted
